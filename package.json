@@ -1,0 +1,21 @@
+{
+  "name": "prefix-expression-calculator",
+  "version": "1.0.0",
+  "description": "A Prefix Expressions is a expression in which first operator comes and preceded by strings. Every prefix string longer than a single variable contains first and second operands followed by an operator.",
+  "main": "app/calculator.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/**"
+  },
+  "author": "yazed rae",
+  "dependencies": {
+    "mocha": "10.2.0",
+    "mocha-junit-reporter": "2.2.1",
+    "mocha-multi-reporters": "1.5.1",
+    "prompt": "1.3.0"
+  },
+  "mocha": {
+    "reporter": "mocha-multi-reporters",
+    "reporterOptions": "configFile=reporters.json"
+  }
+}
