@@ -1,6 +1,6 @@
 # Prefix Expressions Calculator
 
-This calculator will evaluate a prefix expression (Polish Notation) and show the step-by-step process used to arrive at the result using stack.
+A calculator that will evaluate a prefix expression (Polish Notation) and show the step-by-step process used to arrive at the result using stack.
 
 ## Description
 
